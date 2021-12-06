@@ -1,0 +1,10 @@
+.activity-card {
+  width: 235px;
+  height: 235px;
+  box-shadow: 0 4px 8px rgb(0 0 0 / 15%);
+  border-radius: 12px;
+}
+
+.btn-trash {
+  cursor: pointer;
+}

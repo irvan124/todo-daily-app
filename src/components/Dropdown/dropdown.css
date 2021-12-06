@@ -1,0 +1,33 @@
+.dropdown {
+  width: 200px;
+  position: relative;
+  user-select: none;
+}
+
+.dropdown .dropdown-btn {
+  padding: 16px;
+  background: #fff;
+  border: solid 1px gainsboro;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.dropdown .dropdown-content {
+  margin-top: 2px;
+  position: absolute;
+  top: 110%;
+  width: 200px;
+  background-color: #fff;
+  border-radius: 6px;
+  border: solid 1px gainsboro;
+}
+
+.dropdown .dropdown-content .dropdown-item {
+  cursor: pointer;
+  padding: 8px;
+  transition: all 0.2s;
+  padding: 15px;
+}
+.dropdown .dropdown-content .dropdown-item:hover {
+  background-color: rgba(52, 181, 245, 0.2);
+}
